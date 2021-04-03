@@ -16,8 +16,6 @@ public class JyStackTest {
 
     private JyStack<String> jyStack;
 
-
-
     @Before
     public void setUp() throws Exception {
         jyStack = new JyStack<String>();
@@ -44,8 +42,8 @@ public class JyStackTest {
         jyStack.push("谁");
         System.out.println(jyStack.toString());
         String pop = jyStack.pop();
-        System.out.println(">>出栈>>>>"+pop);
-        Assert.assertEquals(pop,"谁");
+        System.out.println(">>出栈>>>>" + pop);
+        Assert.assertEquals(pop, "谁");
     }
 
     @Test
@@ -55,8 +53,8 @@ public class JyStackTest {
         jyStack.push("长");
         jyStack.push("江");
         String top = jyStack.top();
-        System.out.println(">>获取栈顶元素>>>>"+top);
-        Assert.assertEquals(top,"江");
+        System.out.println(">>获取栈顶元素>>>>" + top);
+        Assert.assertEquals(top, "江");
     }
 
     @Test
@@ -77,7 +75,7 @@ public class JyStackTest {
         jyStack.push("族");
         int i = jyStack.search("夏");
         System.out.println(i);
-        Assert.assertEquals(1,i);
+        Assert.assertEquals(1, i);
 
     }
 }

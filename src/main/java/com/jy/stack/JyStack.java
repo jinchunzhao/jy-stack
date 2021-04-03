@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 /**
  * 实现栈功能
- * 
+ *
  * @author jinchunzhao
  * @version 1.0
  * @date 2021-04-02 19:24
@@ -20,13 +20,13 @@ public class JyStack<T> implements Serializable {
     /**
      * 构造函数
      */
-    public JyStack() {}
+    public JyStack() {
+    }
 
     /**
      * 入栈 先进后出
      *
-     * @param t
-     *            元素
+     * @param t 元素
      */
     public void push(T t) {
         STACK_LIST.addLast(t);
@@ -62,8 +62,7 @@ public class JyStack<T> implements Serializable {
     /**
      * 搜索元素
      *
-     * @param t
-     *            元素
+     * @param t 元素
      * @return 下标
      */
     public synchronized int search(T t) {
