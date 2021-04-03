@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87bea69-cff9-429d-b767-0e1ed8d7bcec" name="Default Changelist" comment="11" />
+    <list default="true" id="d87bea69-cff9-429d-b767-0e1ed8d7bcec" name="Default Changelist" comment="优化代码格式">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,8 +64,25 @@
       <updated>1617373598485</updated>
       <workItem from="1617373600087" duration="100000" />
       <workItem from="1617373723639" duration="2428000" />
-      <workItem from="1617432407504" duration="1000" />
+      <workItem from="1617432407504" duration="1334000" />
+      <workItem from="1617434314204" duration="868000" />
+      <workItem from="1617437237945" duration="1000" />
     </task>
+    <task id="LOCAL-00001" summary="自定义实现栈功能">
+      <created>1617432471154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617432471155</updated>
+    </task>
+    <task id="LOCAL-00002" summary="优化代码格式">
+      <created>1617432617939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617432617939</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +98,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="自定义实现栈功能" />
+    <MESSAGE value="优化代码格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化代码格式" />
   </component>
 </project>
