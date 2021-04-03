@@ -16,6 +16,7 @@ public class JyStackTest {
 
     private JyStack<String> jyStack;
 
+
     @Before
     public void setUp() throws Exception {
         jyStack = new JyStack<String>();

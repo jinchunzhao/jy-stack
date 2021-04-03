@@ -12,6 +12,7 @@ import java.util.LinkedList;
  */
 public class JyStack<T> implements Serializable {
 
+
     /**
      * 创建一个初始容量为10的容器
      */
