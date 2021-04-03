@@ -54,6 +54,21 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +81,8 @@
       <workItem from="1617373723639" duration="2428000" />
       <workItem from="1617432407504" duration="1334000" />
       <workItem from="1617434314204" duration="868000" />
-      <workItem from="1617437237945" duration="1000" />
+      <workItem from="1617437237945" duration="683000" />
+      <workItem from="1617486692502" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="自定义实现栈功能">
       <created>1617432471154</created>
@@ -82,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617432617939</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="优化代码格式">
+      <created>1617437251092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617437251092</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
